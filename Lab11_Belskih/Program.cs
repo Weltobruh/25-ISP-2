@@ -31,4 +31,4 @@ Console.Write("Введите z:");
 double z = double.Parse(Console.ReadLine());
 
 double N = (Math.Pow(z + Math.Sqrt(z * x), 1.0 / 5.0)) / (Math.Exp(x) + Math.Pow(a, 5) * Math.Atan(x));
-Console.Write($"Результат N = {N}");
+Console.Write($"Результат N = {N:F2}");
